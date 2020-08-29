@@ -12,6 +12,5 @@ buttonClose.addEventListener('click', function(event) {
 
 function handleSubmit(event) {
     event.preventDefault()
-    console.log(event.target.elements.busqueda.value)
-    console.log(location.pathname)
+    location.href = '/resultados.html?busqueda=' + event.target.elements.busqueda.value
 }
