@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<link rel="shortcut icon" href="Imagenes/LogCamilo.png">
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Formulario Ingreso</title>
+	<link rel="stylesheet" href="Formulario1.css">
+</head>
+<body>
+  <div id="contenedor">
+  	<div id="header">
+  		<h3 align="center">BIENVENIDOS A NUESTRO PORTAL</h3>
+  	</div>
+	<div id="contenido">
+		<div id="imagen">
+			<img class ="foto1" src="Imagenes/LogoCamilo.png">
+		</div>
+
+	  	<div id="section">
+			<form action="insertar.php" method="POST">
+				<h2 align="center">DEJANOS TU CONTACTO Y UN MENSAJE</h2>
+					Nombre: <input type="text" name="Nombres" required=""> <br>
+					Apellido: <input type="text" name="Apellidos" required=""><br>
+					Correo: <input type="text" name="Correo" required=""><br>
+					Mensaje: <textarea type="textarea" name="Mensaje" rows="4" cols="60"></textarea> <br>
+					<input type="submit" name="enviar" value="Enviar">
+			</form>
+	    </div>
+
+  </div>
+  <div id="footer" align="center">Derechos reservados 2020-2022 </footer>
+</div>
+</body>
+</html>
