@@ -1,51 +1,117 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Resultados de búsqueda</title>
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css">
-</head>
-<body>
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="#">
-        <img src="https://v5.getbootstrap.com/docs/5.0/assets/brand/bootstrap-solid.svg" width="30" height="30" class="d-inline-block align-top" alt="" loading="lazy">
-        Inmobiliaria CJJH
-      </a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Inicio</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Sobre nosotros</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Ventas</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Contáctanos</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
+<link rel="shortcut icon" href="imagenes/LogCamilo.png">
+<html lang="es">
 
-  <div class="container">
-    <div class="mt-6 mb-6">
-      <h1>Resultados de la búsqueda: <span id="param"></span></h1>
-    </div>
-    <div id="results" class="row row-cols-1 row-cols-md-3 g-4"></div>
+ <head>
+
+   <meta charset="utf-8" />
+   <title>Resultado de su busqueda</title>
+   <meta name="descripcion" content="Esta es la pagina de la inmobiliaria" /> 
+   <meta name="author" content="Inmobiliaria CJJH"  />
+   <meta name="keywords" content="pagina web, sirve facil para buscar los inmuebles" />
+  <link rel="stylesheet" href="resultados.css">
+  <style>
+   
+  </style>
+
+ </head>
+ 
+ <body>
+
+   <div class="agrupar">
+
+      <header class="cabecera">
+         <img src="Imagenes/LogCamilo.png">
+         <h1 style=>Resultado de tu busqueda:</h1>
+       </header>
+      
+       <nav id="menu">
+
+         <ul>
+     
+          <li> <a href="inicio.html"> Inicio </a></li>
+          <li class="barra">|</li>
+          <li> <a href="misionyvision.html"> Mision y Vision </a> </li>
+          <li class="barra">|</li>
+          <li> <a href="contacto.html"> Contacto </a> </li>
+          <li class="barra">|</li>
+          <li> <a href="Formulario1.html"> Registro </a> </li>
+          <li class="barra">|</li> 
+     
+         </ul>
+     
+      </nav>
+      <br><br>
     
-  </div>
+      <section class="seccion">
+      
+        <article>
+            <hgroup>
+               <h1> Niquia </h1>
+       </article>
+      
+       <article>
+           <hgroup>
+              <h1> Villas del sol </h1>
+       </article>
 
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js"></script>
-  <script src="./js/fake-db.js"></script>
-  <script src="./js/resultados.js"></script>
-</body>
+       <article>
+         <hgroup>
+            <h1> Santa Ana </h1>
+       </article>
+
+       <article>
+         <hgroup>
+            <h1> Mirador </h1>
+        </article>
+
+        <article>
+         <hgroup>
+            <h1> Manchester </h1>
+        </article>
+
+      </section>
+      
+      <aside class="columna">
+
+         <blockquote> 
+            <form action="inicio.html">
+               <input type="submit" value="Inicio" />
+           </form>
+            <br><br>
+            <form action="casas.html">
+              <input type="submit" value="Casas" />
+           </form>
+            <br><br>
+            <form action="Fincas.html">
+              <input type="submit" value="Fincas" />
+           </form>
+            <br><br>
+            <form action="Apartamentos.html">
+              <input type="submit" value="Apartamentos" />
+           </form>
+            <br><br>
+            <form action="Lotes.html">
+              <input type="submit" value="Lotes" />
+           </form>
+            <br><br>
+            <form action="Locales.html">
+              <input type="submit" value="Locales" />
+           </form>
+            <br><br>
+         </blockquote>
+        
+        
+      </aside>
+      
+      <footer class="pie">
+         <h1>Derechos reservados 2020-2022</h1>
+         <h2> Numero de contacto: +57 3013027069 - +57 3015106223 </h2>
+         <h2> Correo de contacto: inmobiliariaCJJH@gmail.com </h2>
+         <h2> Encuentranos en: Bello, Antioquia.</h2>
+      </footer>   
+      
+      
+   </div>
+</body> 
 </html>
